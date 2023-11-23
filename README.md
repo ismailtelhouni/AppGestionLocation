@@ -1,3 +1,43 @@
+# Gestion des Locations
+
+## Description
+
+Ce projet vise à créer une plateforme de gestion des locations immobilières, facilitant les interactions entre les clients à la recherche de locations et les propriétaires proposant des biens immobiliers à louer.
+
+## Acteurs Principaux
+
+1. **Bailleur :** Recherche, consulte et qui gère ses annonces et réservations.
+2. **Propriétaire :** il s’agit d’un acteur qui peut s’authentifier, consulter la liste des annonces et de leurs détails, effectue une location, comme il peut aussi consulter ses locations.
+
+## Fonctionnalités
+
+- **Côté locataire :**
+  - Recherche des locations en fonction de critères spécifiques et après peut prendre une location.
+  - Consultation des détails des locations.
+  - peut télécharger une fiche de confirmation de prise de location d’un immeuble.
+  - peuvent consulter leurs locations et les modifier si certaines conditions sont vérifiées.
+
+- **Côté Propriétaire :**
+  - Les bailleurs peuvent ajouter plusieurs immeubles à leur compte avec les vérifiée.
+  - Modification des informations des propriétés existantes.
+  - Gestion des demandes de location reçues.
+
+## Configuration du Projet
+
+1. **Clonage du Projet :**
+   ```bash
+   git clone https://github.com/ismailtelhouni/AppGestionLocation.git
+2. **Installation des Dépendances :**
+   ```bash
+   cd gestion-locations-laravel
+   composer install
+3. **Lancement du Serveur :**
+   ```bash
+   php artisan serve
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
